@@ -1,0 +1,56 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[1]:
+
+
+#############################Feature engineering###################################
+#Methods:
+    #Applying domain expertise (not know about technology but industry ka pta hoo usay expert hoo health mei etc. yeh log aa kr bataty hai ky yeh application kaisay bane gy rules kya kya hoo gay idustry ky mutabiq)
+    #Combining features
+    #Encoding categorical variables
+
+
+# In[2]:
+
+
+# What is encoding:
+#categorize variables into numerical features
+#like male female it can encode to 1 and 0
+
+
+# In[3]:
+
+
+#Techniques used for encoding variables:
+###########################################One hot encoding####################################################
+#Addition of number of columns
+#If the number of rows in dataset is fixed, the addition of extra dimensions without adding more information for the models to learn from can have a detrimental effect on eventually accuracy
+#index                       colors        index   blue_clor    red_color     yellow_color
+#---                         Blue
+##--                          ----
+#---
+#---
+
+
+# In[4]:
+
+
+##########Hashing###########################
+#hashing is a technique where more than one category of the categorical variables are merge to create single category 
+
+
+# In[5]:
+
+
+#Feature engineering is used for preparing proper input dataset compatible with machine learning algorithm
+#Feature engineering helps us improving the performance of machine learning models
+#Encoding a categorical variable is to categarize them into numerical features
+#One hot encoding and hashing are two techniques for encoding variables
+
+
+# In[ ]:
+
+
+
+

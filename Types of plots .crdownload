@@ -1,0 +1,72 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[1]:
+
+
+###########################################Types of plots##############################################
+
+
+# In[2]:
+
+
+#You can create different types of plots using matplotlib
+#Histogram (graphical representation of probability distribution. It is a type of bar chart)
+#scatter plot
+#Heat Map
+#Pie chart
+#Error bar
+
+
+# In[3]:
+
+
+#A scatter plot is used to graphically display the relationship between the variables
+
+
+# In[4]:
+
+
+###################################plot histogram###########################################
+
+##################load dataset#####################
+#define x_axis for data
+#x_axis = boston_real_set_data.data
+
+#define y_axis for data
+#y_axis = boston_real_set_data.target
+
+
+# In[7]:
+
+
+#style,use('ggplot')
+#plt.figure(figsize = (7 , 7))
+#plt.hist(y_axis , bins = 50)
+#plt.xlabel("")
+#plt.ylabel("")
+#plt.show
+
+
+# In[11]:
+
+
+########################################plot scatterplot #####################################
+
+
+# In[12]:
+
+
+#style,use('ggplot')
+#plt.figure(figsize = (7 , 7))
+#plt.scatter(boston_real_set_data.data[: , 5] , boston_real_set_data.target)
+#plt.xlabel("")
+#plt.ylabel("")
+#plt.show
+
+
+# In[ ]:
+
+
+
+
